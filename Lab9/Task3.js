@@ -1,0 +1,1 @@
+document.getElementById("myPara").textContent = "Asma Arooj!";
