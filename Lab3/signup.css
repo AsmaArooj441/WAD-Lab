@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(210, 244, 244);
+    display: flex;
+    justify-content: center;   
+    align-items: center;   
+    flex-direction: column;    
+}
+h1{
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+}
+label{
+    text-align:center;
+}
+input{
+    background-color: lightgray;
+    width: 300px;
+    height: 30px;
+}
+button{
+    background-color: rgb(79, 106, 239);
+    color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px
+
+}
