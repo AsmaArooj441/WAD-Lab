@@ -1,0 +1,23 @@
+.red{
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.green{
+    height: 80px;
+    width: 80px;
+    background-color: green;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.yellow{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 50px;
+}

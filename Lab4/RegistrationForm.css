@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(242, 242, 227);
+    text-align: center;
+}
+@keyframes rainbow {
+      0% {color: red;}
+      25% {color: orange;}
+      50% {color: green;}
+      75% {color: blue;}
+      100% {color: purple;}
+    }
+        @keyframes slide{
+      from {transform: translateY(-30px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+   .rainbow {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  animation: rainbow 5s infinite linear, slide 5s ease-out;
+}
+.inputgroup input {
+  background-color: rgb(193, 202, 202);
+  width: 300px;
+  height: 30px;
+   border: 1px solid rgb(19, 20, 20);
+  border-radius: 1px;      
+  padding: 1px;   
+}
+.inputgroup input:hover{
+  background-color: rgb(224, 231, 231);   
+}
+    button{
+    background-color: rgb(165, 168, 109);
+    width: 200px;
+    height: 30px;
+}
+    button:hover{
+  background-color: rgb(232, 231, 180);
+    color: rgb(53, 53, 50);
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(1.1);
+}
