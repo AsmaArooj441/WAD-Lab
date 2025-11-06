@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body style="text-align:center;">
+
+<img id="myImg" src="/Assignment2/images/boy.jpg" width="150">
+
+<br><br>
+<button onclick="setAttr()">Change Image</button>
+
+<script>
+function setAttr() {
+  let img = document.getElementById("myImg");
+  img.setAttribute("src", "/Assignment2/images/books.jpg");   // change image source
+  img.setAttribute("width", "200");      // change width
+}
+</script>
+
+</body>
+</html>

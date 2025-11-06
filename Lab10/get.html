@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body style="text-align:center;">
+
+<img id="myImg" src="/Assignment2/images/books.jpg" width="150">
+
+<br><br>
+<button onclick="getAttr()">Get Attribute</button>
+
+<script>
+function getAttr() {
+  let img = document.querySelector("#myImg");
+  let value = img.getAttribute("src");   // get the image source
+  alert("Image source is: " + value);
+}
+</script>
+
+</body>
+</html>
